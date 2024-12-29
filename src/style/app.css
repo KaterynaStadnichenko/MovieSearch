@@ -1,0 +1,9 @@
+*{
+    font-weight: 600;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.comtainer {
+    max-width: 1140px;
+    width: 100%;
+}

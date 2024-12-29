@@ -1,0 +1,35 @@
+.movie_list_wrapper {
+    background: linear-gradient(to bottom, #4d5593, #ffffff);
+}
+.movies_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie_item {
+    width: 200px;
+    text-align: center;
+}
+
+.movie_image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #2c2571;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 3; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}

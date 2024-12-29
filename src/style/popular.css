@@ -1,0 +1,37 @@
+.popular_movies_grid {
+    width: 100%;
+    min-width: 100%;
+    max-width: var(--maxPrimaryPageWidth);
+    min-height: 355px;
+    overflow-x: hidden;
+    overflow-x: hidden;
+    transition: height .5s linear;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+}
+.movie_card {
+    width: 400px;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+    
+}
+.popular_img {
+    width: 200px;
+    height: 300px;
+   
+}
+.popular_movie_title {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    background-color: rgba(0, 0, 255, 0.329);
+    background-size: cover;
+    color: white;
+    width: 200px;
+}
