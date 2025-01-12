@@ -4,6 +4,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-top: 250px;
 }
 .input {
     padding: 10px 150px;

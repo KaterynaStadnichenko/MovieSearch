@@ -46,7 +46,7 @@ export default function Popular() {
   
 
   return (
-    <div >
+    <div className='popular_movies_div'>
       <h1>Popular Movies</h1>
       <div className='popular_movies_grid'  ref={gridRef}>
         {movies.map(movie => (

@@ -1,8 +1,17 @@
 .header {
     background-color: rgb(23, 23, 92);
     padding: 5px;
-    
+   
 }
 .button {
     padding: 10px 20px;
+}
+.linkein_icon {
+    width: 35px;
+    color: white;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

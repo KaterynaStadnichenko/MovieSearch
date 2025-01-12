@@ -1,11 +1,10 @@
 .popular_movies_grid {
-    width: 100%;
-    min-width: 100%;
-    max-width: var(--maxPrimaryPageWidth);
-    min-height: 355px;
+    /* width: 100%; */
+    /* min-width: 100%; */
+    /* max-width: var(--maxPrimaryPageWidth); */
+    /* min-height: 355px; */
     overflow-x: hidden;
-    overflow-x: hidden;
-    transition: height .5s linear;
+    /* transition: height .5s linear; */
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -28,10 +27,17 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 5px;
+    bottom: 4px;
     left: 0px;
-    background-color: rgba(0, 0, 255, 0.329);
+    background: linear-gradient(to bottom,  #ffffff00, #061161);
     background-size: cover;
     color: white;
     width: 200px;
+    margin: 0;
+}
+.popular_movie_title:hover {
+    background: linear-gradient(to bottom,  #ffffff00, #ffffff);
+}
+.popular_movies_div {
+    background: linear-gradient(to bottom,  #ffffff00, #061161);
 }
